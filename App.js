@@ -8,7 +8,7 @@
 
 import React from 'react';
 
-import {StyleSheet} from 'react-native';
+// import {StyleSheet} from 'react-native';
 import {View, Text} from 'rn-tailwind';
 
 const App = () => {
@@ -26,11 +26,11 @@ const App = () => {
   );
 };
 
-const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
-  },
-});
+// const styles = StyleSheet.create({
+//   sectionContainer: {
+//     marginTop: 32,
+//     paddingHorizontal: 24,
+//   },
+// });
 
 export default App;
