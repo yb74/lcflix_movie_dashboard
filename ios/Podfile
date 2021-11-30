@@ -12,6 +12,8 @@ target 'lcflix_movie_dashboard' do
     :hermes_enabled => false
   )
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'lcflix_movie_dashboardTests' do
     inherit! :complete
     # Pods for testing

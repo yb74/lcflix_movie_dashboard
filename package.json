@@ -10,14 +10,24 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^6.0.11",
     "@reduxjs/toolkit": "^1.6.2",
     "npm-install-peers": "^1.2.2",
     "react": "17.0.2",
     "react-native": "0.66.3",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-paper": "^4.10.0",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.9.0",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-vector-icons": "^9.0.0",
     "react-redux": "^7.2.6",
     "redux": "^4.1.2",
     "redux-devtools": "^3.7.0",
-    "rn-tailwind": "^1.0.16"
+    "redux-thunk": "^2.4.0",
+    "tailwind-rn": "^3.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.16.0",

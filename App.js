@@ -7,30 +7,29 @@
  */
 
 import React from 'react';
+import {Provider as PaperProvider} from 'react-native-paper';
+import BottomBarNavigator from './navigation/BottomBarNavigator';
 
-// import {StyleSheet} from 'react-native';
-import {View, Text} from 'rn-tailwind';
+const theme = {
+  background: {
+    darkGrey: 'ff9e00',
+    black: '#000',
+  },
+  myOwnProperty: true,
+  roundness: 2,
+  colors: {
+    primary: '#fff',
+    title: '#000',
+    flashyGreen: '#ffd700',
+  },
+};
 
 const App = () => {
   return (
-    <View className="h-full xl:h-1/2">
-      <View className="pt-12 xl:pt-4 items-center">
-        {/*<View className="bg-blue-200 px-3 py-1 rounded-full">*/}
-        {/*  <Text className="text-blue-800 font-semibold">App de Younes</Text>*/}
-        {/*</View>*/}
-        <Text className="text-blue-800 font-semibold">
-          LcFlix - Movies Dashboard
-        </Text>
-      </View>
-    </View>
+    <PaperProvider theme={theme}>
+      <BottomBarNavigator />
+    </PaperProvider>
   );
 };
-
-// const styles = StyleSheet.create({
-//   sectionContainer: {
-//     marginTop: 32,
-//     paddingHorizontal: 24,
-//   },
-// });
 
 export default App;
